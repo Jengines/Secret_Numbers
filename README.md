@@ -1,6 +1,6 @@
 #Short description
 
-This project is a code short Maven project write in Java 8, for a game called "Secret numbers"
+This project is a short code Maven project write in Java 8, for a game called "Secret numbers"
 
 #Game rules
 
@@ -12,9 +12,9 @@ This project is a code short Maven project write in Java 8, for a game called "S
 
 #How to run the app
 
-The app can be run by launching the main() method on MainRunner.java
+The app can be run by launching the main() method in MainRunner.java
 
-The game is playable by using the prompt console
+The game is playable by using the console prompt
 
 #Example
 
@@ -41,7 +41,7 @@ Game answer : Win
 
 #Debug
 
-You can uncomment the line the play() method on PlayProcessor.java to see which secrets numbers are generated.
+You can uncomment the line in the main() method in MainRunner.java to see which secrets numbers are generated.
 
 This should be refactored, and replaced by a Json file who contains a boolean value for enabling or disabling debug mode.
 

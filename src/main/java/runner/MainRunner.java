@@ -9,6 +9,9 @@ import java.io.InputStreamReader;
 public class MainRunner {
 
     public static void main(String[] args) throws IOException {
+        // Uncomment the following line for debug
+//        System.out.println("The 'secrets' numbers are: " + PlayProcessor.getSecretNumbers());
+
         int inputNumber = readInputStream();
 
         // Let's play !

@@ -32,9 +32,6 @@ public class PlayProcessor {
      * other int : the amount of secret numbers that are factor of the submitter number
      */
     public static int play(Integer submittedNumber) {
-        // Uncomment the following line for debug
-        // System.out.println(secretNumbers);
-
         long multipleFromNumbers = getMultipleFromNumbers(submittedNumber);
 
         if (multipleFromNumbers == secretNumbers.size()) {
@@ -83,6 +80,15 @@ public class PlayProcessor {
         }
 
         return factors;
+    }
+
+    /**
+     * Getter for secretNumbers
+     *
+     * @return secretNumbers
+     */
+    public static List<Integer> getSecretNumbers() {
+        return secretNumbers;
     }
 
     /**
