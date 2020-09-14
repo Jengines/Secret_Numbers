@@ -32,8 +32,8 @@ public class PlayProcessor {
      * other int : the amount of secret numbers that are factor of the submitter number
      */
     public static int play(Integer submittedNumber) {
-        // TODO to remove : only for debug
-        System.out.println(secretNumbers);
+        // Uncomment the following line for debug
+        // System.out.println(secretNumbers);
 
         long multipleFromNumbers = getMultipleFromNumbers(submittedNumber);
 
